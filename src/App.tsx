@@ -1,9 +1,12 @@
-import './App.css'
+import { Flex } from '@chakra-ui/react'
 
 function App() {
 
   return (
-    <h1>hello world!</h1>
+    <Flex w='100vw' h='100vh' >
+      <h1>hello world!</h1>
+
+    </Flex>
   )
 }
 
