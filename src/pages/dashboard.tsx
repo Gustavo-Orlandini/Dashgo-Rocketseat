@@ -2,6 +2,7 @@ import { Box, Flex, SimpleGrid, Text, theme } from "@chakra-ui/react";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import Chart from 'react-apexcharts'
+import { ApexOptions } from "apexcharts";
 
 const options = {
     chart: {
@@ -50,7 +51,7 @@ const options = {
         }
     }
 
-};
+} as unknown as ApexOptions
 
 const series = [
     { name: 'series1', data: [31, 120, 10, 28, 61, 18, 109] }
