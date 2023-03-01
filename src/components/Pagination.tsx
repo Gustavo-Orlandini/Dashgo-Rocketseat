@@ -6,7 +6,7 @@ export function Pagination() {
             <Box>
                 <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
             </Box>
-            <Stack spacing='6' direction='row'>
+            <Stack spacing='4' direction='row'>
                 <Button size='sm' fontSize='xs' w='4' colorScheme='pink' disabled _disabled={{ bg: 'pink.500', cursor: 'default', }} >
                     1
                 </Button>
