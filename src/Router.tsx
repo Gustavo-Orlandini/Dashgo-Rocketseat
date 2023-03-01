@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { Dashboard } from './pages/dashboard'
-import SignIn from './pages/signIn'
+import SignIn from './pages/SignIn'
 
 export function Router() {
     return (
