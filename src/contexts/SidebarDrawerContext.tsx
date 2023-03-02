@@ -13,11 +13,10 @@ const SidebarDrawerContext = createContext({} as SidebarDrawerContextData);
 export function SidebarDrawerProvider({ children }: SidebarDrawerProviderProps) {
     const disclosure = useDisclosure()
 
-    const router = useLocation()
 
     useEffect(() => {
         disclosure.onClose()
-    }, [router.pathname])
+    }, [window.location.pathname])
 
     return (
         <SidebarDrawerContext.Provider value={disclosure} >
