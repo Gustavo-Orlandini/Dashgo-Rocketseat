@@ -5,11 +5,11 @@ import { Router } from './Router'
 function App() {
 
   return (
-    <SidebarDrawerProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <SidebarDrawerProvider>
         <Router />
-      </BrowserRouter>
-    </SidebarDrawerProvider>
+      </SidebarDrawerProvider>
+    </BrowserRouter>
   )
 }
 
