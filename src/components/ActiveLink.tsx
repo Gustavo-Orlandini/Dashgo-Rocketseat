@@ -19,6 +19,7 @@ export function ActiveLink({ children, shouldMatchExactHref = false, ...rest }: 
         isActive = true
     }
 
+
     return (
         <NavLink {...rest} >
             {cloneElement(children, {
